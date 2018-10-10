@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="162px" height="165px" viewBox="0 0 162 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Custom WEB Copy 22</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="10.2409102%" x2="50%" y2="29.2790344%" id="linearGradient-1">
+            <stop stop-color="#FFD055" offset="0%"></stop>
+            <stop stop-color="#F26453" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-66.1%" y="-66.2%" width="232.1%" height="232.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="192" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <ellipse id="path-3" cx="896.775362" cy="895.368684" rx="896.775362" ry="895.368684"></ellipse>
+        <filter x="-10.1%" y="-14.9%" width="120.2%" height="129.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="60" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <circle id="path-6" cx="709" cy="1136" r="8"></circle>
+        <circle id="path-7" cx="709" cy="1274" r="8"></circle>
+        <circle id="path-8" cx="777" cy="1205" r="8"></circle>
+        <circle id="path-9" cx="643" cy="1205" r="8"></circle>
+    </defs>
+    <g id="Promeθeus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-WEB-Copy-22" transform="translate(-629.000000, -1122.000000)">
+            <rect fill="#161825" x="0" y="0" width="1440" height="7093"></rect>
+            <g id="Group-24" transform="translate(-94.000000, -598.000000)">
+                <g id="Group-6">
+                    <g id="Group-4" transform="translate(0.000000, 413.177343)">
+                        <g id="Group-3">
+                            <ellipse id="Oval-2" fill="url(#linearGradient-1)" fill-rule="nonzero" filter="url(#filter-2)" cx="900.615942" cy="984.518097" rx="435.905797" ry="435.222037"></ellipse>
+                            <g id="Oval-2" transform="translate(0.000000, 556.965171)">
+                                <g id="Group-7">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <g id="Mask" fill-rule="nonzero"></g>
+                                    <ellipse id="Oval-2" fill="#161825" fill-rule="nonzero" filter="url(#filter-5)" mask="url(#mask-4)" cx="897.329832" cy="641.492835" rx="891.330479" ry="605.487625"></ellipse>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-6" transform="translate(707.000000, 1157.000000)" fill-rule="nonzero" stroke="#41435A" stroke-width="2">
+                <path d="M1.32272727,0 L1.32272727,24" id="Path-Copy"></path>
+                <path d="M1.32272727,71 L1.32272727,95" id="Path-Copy-2"></path>
+            </g>
+            <path d="M660,1204.5 L684,1204.5 L660,1204.5 Z" id="Path-Copy" stroke="#41435A" stroke-width="2" fill-rule="nonzero"></path>
+            <path d="M744.322727,1193 L744.322727,1217" id="Path-Copy-2" stroke="#41435A" stroke-width="2" fill-rule="nonzero" transform="translate(744.000000, 1205.500000) rotate(-90.000000) translate(-744.000000, -1205.500000) "></path>
+            <g id="Group-6" transform="translate(708.000000, 1205.000000) rotate(-135.000000) translate(-708.000000, -1205.000000) translate(707.000000, 1157.000000)" fill-rule="nonzero" stroke="#41435A" stroke-width="2">
+                <path d="M1.32272727,0 L1.32272727,24" id="Path-Copy"></path>
+                <path d="M1.32272727,71 L1.32272727,95" id="Path-Copy-2"></path>
+            </g>
+            <g id="Group-6" transform="translate(708.000000, 1205.000000) rotate(-225.000000) translate(-708.000000, -1205.000000) translate(707.000000, 1157.000000)" fill-rule="nonzero" stroke="#41435A" stroke-width="2">
+                <path d="M1.32272727,0 L1.32272727,24" id="Path-Copy"></path>
+                <path d="M1.32272727,71 L1.32272727,95" id="Path-Copy-2"></path>
+            </g>
+            <polygon id="Polygon" stroke="#41435A" stroke-width="2" fill-rule="nonzero" points="709.5 1134 760.058135 1154.94187 781 1205.5 760.058135 1256.05813 709.5 1277 658.941865 1256.05813 638 1205.5 658.941865 1154.94187"></polygon>
+            <g id="Oval" fill-rule="nonzero">
+                <use stroke="#161825" stroke-width="17" fill="#161825" xlink:href="#path-6"></use>
+                <use stroke="#DF804E" stroke-width="2" xlink:href="#path-6"></use>
+            </g>
+            <g id="Oval-Copy" fill-rule="nonzero">
+                <use stroke="#161825" stroke-width="17" fill="#161825" xlink:href="#path-7"></use>
+                <use stroke="#DF804E" stroke-width="2" xlink:href="#path-7"></use>
+            </g>
+            <circle id="Oval-Copy" stroke="#DF804E" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="709" cy="1205" r="8"></circle>
+            <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="660" cy="1255" r="4"></circle>
+            <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="759" cy="1255" r="4"></circle>
+            <g id="Oval-Copy" fill-rule="nonzero">
+                <use stroke="#161825" stroke-width="17" fill="#161825" xlink:href="#path-8"></use>
+                <use stroke="#DF804E" stroke-width="2" xlink:href="#path-8"></use>
+            </g>
+            <g id="Oval-Copy" fill-rule="nonzero">
+                <use stroke="#161825" stroke-width="17" fill="#161825" xlink:href="#path-9"></use>
+                <use stroke="#DF804E" stroke-width="2" xlink:href="#path-9"></use>
+            </g>
+            <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="660" cy="1156" r="4"></circle>
+            <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="759" cy="1156" r="4"></circle>
+        </g>
+    </g>
+</svg>
