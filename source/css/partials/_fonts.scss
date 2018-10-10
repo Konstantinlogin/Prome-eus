@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Avenir Heavy';
+    src: url($FONT_PATH + 'Avenir-Heavy.eot');
+    src: local('Avenir Heavy'), local('Avenir-Heavy'), url($FONT_PATH + 'Avenir-Heavy.eot?#iefix') format('embedded-opentype'), url($FONT_PATH + 'Avenir-Heavy.woff') format('woff'), url($FONT_PATH + 'Avenir-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Proxima Nova Extrabold';
+	src: url($FONT_PATH + 'ProximaNova-Extrabld.eot');
+	src: local('Proxima Nova Extrabold'), local('ProximaNova-Extrabld'), url($FONT_PATH + 'ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'), url($FONT_PATH + 'ProximaNova-Extrabld.woff') format('woff'), url($FONT_PATH + 'ProximaNova-Extrabld.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Regular';
+	src: url($FONT_PATH + 'ProximaNova-Regular.eot');
+	src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url($FONT_PATH + 'ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url($FONT_PATH + 'ProximaNova-Regular.woff') format('woff'), url($FONT_PATH + 'ProximaNova-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Semibold';
+	src: url($FONT_PATH + 'ProximaNova-Semibold.eot');
+	src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'), url($FONT_PATH + 'ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'), url($FONT_PATH + 'ProximaNova-Semibold.woff') format('woff'), url($FONT_PATH + 'ProximaNova-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Proxima Nova Black';
+	src: url($FONT_PATH + 'ProximaNova-Black.eot');
+	src: local('Proxima Nova Black'), local('ProximaNova-Black'), url($FONT_PATH + 'ProximaNova-Black.eot?#iefix') format('embedded-opentype'), url($FONT_PATH + 'ProximaNova-Black.woff') format('woff'), url($FONT_PATH + 'ProximaNova-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url($FONT_PATH + 'ProximaNova-Bold.eot');
+	src: local('Proxima Nova Bold'), local('ProximaNova-Bold'), url($FONT_PATH + 'ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url($FONT_PATH + 'ProximaNova-Bold.woff') format('woff'), url($FONT_PATH + 'ProximaNova-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Thin';
+	src: url($FONT_PATH + 'ProximaNovaT-Thin.eot');
+	src: local('Proxima Nova Thin'), local('ProximaNovaT-Thin'), url($FONT_PATH + 'ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'), url($FONT_PATH + 'ProximaNovaT-Thin.woff') format('woff'), url($FONT_PATH + 'ProximaNovaT-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Proxima Nova Light';
+	src: url($FONT_PATH + 'ProximaNova-Light.eot');
+	src: local('Proxima Nova Light'), local('ProximaNova-Light'), url($FONT_PATH + 'ProximaNova-Light.eot?#iefix') format('embedded-opentype'), url($FONT_PATH + 'ProximaNova-Light.woff') format('woff'), url($FONT_PATH + 'ProximaNova-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
