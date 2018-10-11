@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="208px" height="208px" viewBox="0 0 208 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Scalable</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Promeθeus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Planet" transform="translate(-233.000000, -1838.000000)">
+            <rect fill="#161825" x="0" y="0" width="1440" height="5977"></rect>
+            <g id="Group-14" transform="translate(264.000000, 1867.000000)" fill-rule="nonzero" stroke-width="2">
+                <polyline id="Rectangle" stroke="#41435A" points="1.42108547e-14 116.63613 1.42108547e-14 85.4479898 35.5 62 71 85.4479898 71 117.161424"></polyline>
+                <polyline id="Rectangle-Copy-2" stroke="#41435A" points="71 125 35.5 148.44799 1.42108547e-14 125"></polyline>
+                <polyline id="Rectangle-Copy-3" stroke="#41435A" points="71 85 35.5 108.44799 1.42108547e-14 85"></polyline>
+                <path d="M36.3227273,109 L36.3227273,140.201542" id="Path" stroke="#41435A"></path>
+                <polyline id="Rectangle" stroke="#FF6855" points="71 117.63613 71 86.4479898 106.5 63 142 86.4479898 142 118.161424"></polyline>
+                <polyline id="Rectangle-Copy-2" stroke="#FF6855" points="142 126 106.5 149.44799 71 126"></polyline>
+                <polyline id="Rectangle-Copy-3" stroke="#FF6855" points="142 86 106.5 109.44799 71 86"></polyline>
+                <path d="M107.322727,110 L107.322727,141.201542" id="Path" stroke="#FF6855"></path>
+                <polyline id="Rectangle" stroke="#41435A" points="36 54.8556752 36 23.5422113 71.5 -1.10134124e-13 107 23.5422113 107 55.3830803"></polyline>
+                <polyline id="Rectangle-Copy-3" stroke="#41435A" points="107 23 71.5 46.5422113 36 23"></polyline>
+                <path d="M72.3227273,47 L72.3227273,78.3269197" id="Path" stroke="#41435A"></path>
+            </g>
+        </g>
+    </g>
+</svg>

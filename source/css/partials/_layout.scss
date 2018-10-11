@@ -1,13 +1,52 @@
 .wrapper {
     box-sizing: border-box;
+    position: relative;
     width: 100%;
-    background: url('../images/bg-top.jpg') no-repeat center top;
-    background-size: cover;
+    // background: url('../images/bg-top.jpg') no-repeat center top;
+    // background-size: 1440px;
+    // position: relative;
+    z-index: 2;
+
+}
+.first-planet {
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2368px;
+    &__container {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+    &__inner {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    &__planet {
+        position: absolute;
+        z-index: 1;
+        top: -1098px;
+        width: 1855px;
+        height: 2368px;
+        background: url(../images/planet-1.png) no-repeat center top;
+        background-size: 1855px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 .header {
     &__container {
         display: flex;
-        max-width: 1366px;
+        max-width: 1284px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 20px;
@@ -39,6 +78,7 @@
 }
 body {
     background-color: #161825;
+    font-size: 1em;
 }
 
 .menu {
@@ -47,7 +87,7 @@ body {
     display: flex;
     list-style: none;
     &__link {
-        margin-right: 35px;
+        margin-right: 40px;
         &:last-child {
             margin-right: 0;
         }
@@ -70,12 +110,12 @@ body {
     }
 }
 .planet-1 {
-    background: url(../images/planet-1.png) no-repeat center -712px;
-    background-size: 1855px;
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    z-index: 0;
+    // background: url(../images/planet-1.png) no-repeat center -712px;
+    // background-size: 1855px;
+    // width: 100%;
+    // height: 2368px;
+    // position: absolute;
+    // z-index: 0;
 }
 .title-section {
     height: 100vh;
@@ -84,6 +124,7 @@ body {
     box-sizing: border-box;
     position: relative;
     z-index: 1;
+    overflow: hidden;
     &__title {
         margin: 0;
         text-align: center;
@@ -102,6 +143,21 @@ body {
         padding-left: 20px;
         padding-right: 20px;
         text-align: center;
+        &-inner {
+            position: relative;
+            z-index: 2;
+        }
+    }
+    &__planet {
+        position: absolute;
+        z-index: 1;
+        top: -980px;
+        width: 1855px;
+        height: 2368px;
+        background: url(../images/planet-1.png) no-repeat center top;
+        background-size: 1855px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 .button {
@@ -125,18 +181,87 @@ body {
         box-shadow: 0px 7px 62px 10px rgba(255,132,85,0.4);
     }
 }
+.block-title {
+    color: white;
+    margin: 0;
+    font-size: 2.8em;
+    line-height: 1.2;
+    &__sub {
+        color: #8C8492;
+        font-size: 0.688rem;
+        font-size: 11px;
+        line-height: 16px;
+        display: block;
+        margin-bottom: 22px;
+    }
+}
 .about-section {
+    margin-bottom: 155px;
     &__container {
         margin-left: auto;
         margin-right: auto;
-        max-width: 1082px;
+        max-width: 1135px;
         padding-left: 20px;
         padding-right: 20px;
         box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        padding-right: 20px;
+        width: 39%;
+    }
+    &__right {
+        width: 61%;
+    }
+    &__text {
+        font-size: 1.2em;
+        line-height: 1.5;
+        margin: 0;
+        font-size: 1.125em;
+        color: #8C8492;
+        padding-top: 40px;
+    }
+}
+.adv-section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1135px;
+    // padding-left: 20px;
+    // padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    &__item {
+        width: 33.333%;
+        max-width: 322px;
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: center;
+        position: relative;
+        padding-bottom: 49px;
+        box-sizing: border-box;
+        &:last-child {
+            margin-right: 0;
+        }
+        &__button {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    &__text {
+        line-height: 1.5;
+        color: #8C8492;
+        font-size: 1.125em;
+        margin-bottom: 40px;
+        margin-top: 0;
     }
     &__title {
+        line-height: 1.2;
+        font-size: 2.125em;
         color: white;
-        letter-spacing: -2.35px;
-        margin: 0;
+        margin-bottom: 28px;
     }
 }
