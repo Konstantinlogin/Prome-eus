@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Promeθeus</title>
     <link rel="stylesheet" href="css/project.css" />
@@ -23,11 +22,11 @@
             <div class="header__container">
                 <div class="header__left">
                     <nav class="menu">
-                        <a href="#" class="text-Regular-Extended menu__link menu__link--active">ABOUT</a>
-                        <a href="#" class="text-Regular-Extended menu__link">MISSION</a>
-                        <a href="#" class="text-Regular-Extended menu__link">NEW</a>
-                        <a href="#" class="text-Regular-Extended menu__link">CLIENTS</a>
-                        <a href="#" class="text-Regular-Extended menu__link">TEAM</a>
+                        <a href="#about" class="js-anchor-scroll text-Regular-Extended menu__link menu__link--active">ABOUT</a>
+                        <a href="#mission" class="js-anchor-scroll text-Regular-Extended menu__link">MISSION</a>
+                        <a href="#new" class="js-anchor-scroll text-Regular-Extended menu__link">NEW</a>
+                        <a href="#clients" class="js-anchor-scroll text-Regular-Extended menu__link">CLIENTS</a>
+                        <a href="#team" class="js-anchor-scroll text-Regular-Extended menu__link">TEAM</a>
                     </nav>
                 </div>
                 <div class="header__right">
@@ -38,7 +37,7 @@
             </div>
         </header>
 
-        <section class="title-section">
+        <section id="about" class="js-page-section title-section">
             <div class="title-section__content">
                 <!-- <div class="title-section__planet"></div> -->
                 <div class="title-section__content-inner">
@@ -51,7 +50,7 @@
                 </div>
             </div>
         </section>
-        <section class="about-section">
+        <section class="js-page-section about-section">
             <div class="about-section__container">
                 <div class="about-section__left">
                     <h1 class="block-title text-Extrabold">
@@ -73,7 +72,7 @@
                 </div>
             </div>
         </section>
-        <div class="adv-section">
+        <div class="js-page-section adv-section">
             <div class="adv-section__item">
                 <img class="adv-section__image" src="images/Scalable.svg" />
                 <div class="adv-section__title text-Extrabold">
@@ -113,7 +112,7 @@
                 </a>
             </div>
         </div>
-        <section class="section-mission">
+        <section id="mission" class="js-page-section section-mission">
             <div class="section-mission__planet"></div>
             <div class="section-mission__content">
                 <h1 class="section-mission__title block-title text-Extrabold">
@@ -132,7 +131,7 @@
                 </p>
             </div>
         </section>
-        <section class="section-how">
+        <section class="js-page-section section-how">
             <h1 class="section-how__title block-title text-Extrabold">
                 <span class="block-title__sub text-Regular-Extended">TECHNOLOGIES</span>
                 How does <span class="title-brake-wrap"><br /></span>
@@ -140,7 +139,7 @@
             </h1>
             <img src="images/img-blockchain.svg" alt="" class="section-how__img">
         </section>
-        <section class="section-news">
+        <section id="new" class="js-page-section section-news">
             <h1 class="section-news__title block-title text-Extrabold">
                 Our news
             </h1>
@@ -203,7 +202,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-clients">
+        <section id="clients" class="js-page-section section-clients">
             <h1 class="section-clients__title text-Extrabold ">
                 Our clients
             </h1>
@@ -461,7 +460,161 @@
             </div>
         </section>
 
+        <section id="team" class="js-page-section section-team">
+                <div class="section-team__container">
+                    <h1 class="text-Extrabold section-team__title">
+                        Our Team
+                    </h1>
+                    <div class="section-team__our-team-block">
+                        <div class="our-team">
+                            <div class="our-team__row">
+                                <div class="our-team__title-block">
+                                    <span class="our-team__title text-Extrabold">
+                                        Founders &amp; Advisors
+                                    </span>
+                                </div>
+                                <div class="section-team__grid">
+                                    <a class="our-team__col" href="https://www.linkedin.com/in/mike-raitsyn-05b5b9b4" target="_blank">
+                                        <div class="our-team__image-block">
+                                            <img alt="" class="our-team__image" src="images/MikeRaitsun.jpg">
+                                        </div>
+                                        <span class="our-team__name text-Regular">
+                                        Mike Raitsyn
+                                    </span>
+                                        <span class="our-team__whois text-Regular-Extended">
+                                        Angel Investor and Adviser to CEO
+                                    </span>
+                                    </a>
+                                    <a class="our-team__col" href="https://www.linkedin.com/in/scottpaul2" target="_blank">
+                                        <div class="our-team__image-block">
+                                            <img alt="" class="our-team__image" src="images/ScottPaul.jpg">
+                                        </div>
+                                        <span class="our-team__name text-Regular">
+                                        Scott Paul
+                                    </span>
+                                        <span class="our-team__whois text-Regular-Extended">
+                                        Advisor
+                                    </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="our-team__row">
+                                <div class="our-team__title-block our-team__title-block--pad-30">
+                                    <span class="our-team__title text-Extrabold">
+                                        Founders &amp; Chief Officers
+                                    </span>
+                                </div>
+                                <div class="section-team__grid">
+                                    <a class="our-team__col" href="https://www.linkedin.com/in/pavelmaurus" target="_blank">
+                                        <div class="our-team__image-block">
+                                            <img alt="" class="our-team__image" src="images/PavelMaurus.jpg">
+                                        </div>
+                                        <span class="our-team__name text-Regular">
+                                        Pavel Maurus
+                                    </span>
+                                        <span class="our-team__whois text-Regular-Extended">
+                                        Chief Executive Officer
+                                    </span>
+                                    </a>
+                                    <a class="our-team__col" href="https://www.linkedin.com/in/emaurus" target="_blank">
+                                        <div class="our-team__image-block">
+                                            <img alt="" class="our-team__image" src="images/EvgeniyMaurus.jpg">
+                                        </div>
+                                        <span class="our-team__name text-Regular">
+                                            Evgeny Maurus
+                                        </span>
+                                        <span class="our-team__whois text-Regular-Extended">
+                                        Chief Operating Officer
+                                    </span>
+                                    </a>
+                                    <a class="our-team__col" href="https://www.linkedin.com/in/suilin-arthur-304b8219" target="_blank">
+                                        <div class="our-team__image-block">
+                                            <img alt="" class="our-team__image" src="images/ArturSuilin.jpg">
+                                        </div>
+                                        <span class="our-team__name text-Regular">
+                                            Artur Suilin
+                                        </span>
+                                        <span class="our-team__whois text-Regular-Extended">
+                                        Chief Data Scientist
+                                    </span>
+                                    </a>
+                                    <a class="our-team__col" href="https://www.linkedin.com/in/toregozhin" target="_blank">
+                                        <div class="our-team__image-block">
+                                            <img alt="" class="our-team__image" src="images/ArstanToregozhin.jpg">
+                                        </div>
+                                        <span class="our-team__name text-Regular">
+                                            Arstan Toregozhin
+                                        </span>
+                                        <span class="our-team__whois text-Regular-Extended">
+                                            Chief Project Officer
+                                        </span>
+                                    </a>
+                                    <a class="our-team__col" href="https://www.linkedin.com/in/gtelegin" target="_blank">
+                                        <div class="our-team__image-block">
+                                            <img alt="" class="our-team__image" src="images/GennadyTelegin.jpg">
+                                        </div>
+                                        <span class="our-team__name text-Regular">
+                                            Gennady Telegin
+                                        </span>
+                                        <span class="our-team__whois text-Regular-Extended">
+                                            Chief Technical Officer
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="our-team__row">
+                                <div class="our-team__title-block">
+                                    <span class="our-team__title text-Extrabold">
+                                        Client Relationships
+                                    </span>
+                                </div>
+                                <div class="section-team__grid">
+                                    <a href="https://www.linkedin.com/in/adharsingh" target="_blank" class="our-team__col">
+                                        <div class="our-team__image-block">
+                                            <img alt="" class="our-team__image" src="images/AdharSingh.jpg">
+                                        </div>
+                                        <span class="our-team__name text-Regular">
+                                            Adhar Singh
+                                        </span>
+                                        <span class="our-team__whois text-Regular-Extended">
+                                            Head of Client Relationships
+                                        </span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/anil-jethwani-01a5a658" target="_blank" class="our-team__col">
+                                        <div class="our-team__image-block">
+                                            <img alt="" class="our-team__image" src="images/AnilJethwani.jpg">
+                                        </div>
+                                        <span class="our-team__name text-Regular">
+                                            Anil Jethwani
+                                        </span>
+                                        <span class="our-team__whois text-Regular-Extended">
+                                            Head of Client Success
+                                        </span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/juan-soriano-martinez-costa-ba857a152/" target="_blank" class="our-team__col">
+                                        <div class="our-team__image-block">
+                                            <img alt="" class="our-team__image" src="images/JuanSoriano.jpg">
+                                        </div>
+                                        <span class="our-team__name text-Regular">
+                                            Juan Soriano
+                                        </span>
+                                        <span class="our-team__whois text-Regular-Extended">
+                                            Head of Business Development
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="js-page-section footer">
+                <img class="footer__image" alt="" src="images/footer-bg.png" alt="Contact Us"/>
+                <a href="#" class="button footer__button">
+                        Email
+                </a>
+            </footer>
         <script src="js/project.js"></script>
 </body>
 
