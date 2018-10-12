@@ -179,7 +179,7 @@ body {
     &:hover {
         background: #FF8455;
         color: white;
-        box-shadow: 0px 7px 62px 10px rgba(255,132,85,0.4);
+        box-shadow: 0px 0px 53px 0px rgba(255,132,85,0.63);
     }
 }
 .block-title {
@@ -406,7 +406,90 @@ body {
         box-sizing: border-box;
     }
     &__item {
+        position: relative;
+        z-index: 1;
         display: inline-block;
         width: 25%;
+        height: 275px;
+        margin-right: -1.5px;
+        margin-bottom: -1.5px;
+        &:hover {
+            background-image: linear-gradient(-180deg, #F78E40 0%, #D5594C 100%);
+            box-shadow: 0px 0px 23px 0px rgba(255,132,85,0.63);
+            width: calc(25% + 1.5px);
+            margin-right: -3px;
+            border: none;
+            z-index: 2;
+            .section-clients__top-border, .section-clients__bottom-border {
+                &:before, &:after {
+                    border-color: transparent!important;
+                }
+            }
+            .section-clients__brand-container {
+                svg {
+                    margin-right: 1.5px;
+                }
+                .fill-path {
+                    fill: white!important;
+                }
+            }
+        }
+    }
+    &__brand-container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &__top-border {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0.5;
+        &:before, &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            box-sizing: border-box;
+            border-top: 1.5px solid #242438;
+            width: 18px;
+            height: 18px;
+            top: 0;
+        }
+        &:before {
+            left: 0;
+            border-left: 1.5px solid #242438;
+        }
+        &:after {
+            right: 0;
+            border-right: 1.5px solid #242438;
+        }
+    }
+    &__bottom-border {
+        position: absolute;
+        opacity: 0.5;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        &:before, &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            border-color: #242438;
+            box-sizing: border-box;
+            border-bottom: 1.5px solid #242438;
+            width: 18px;
+            height: 18px;
+            bottom: 0;
+        }
+        &:before {
+            left: 0;
+            border-left: 1.5px solid #242438;
+        }
+        &:after {
+            right: 0;
+            border-right: 1.5px solid #242438;
+        }
     }
 }
