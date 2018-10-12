@@ -37,7 +37,11 @@ let webpack_path = [
 ];
 
 let plugins = [
-
+    new webpack.ProvidePlugin({
+        $: 'jquery',
+        jQuery: 'jquery',
+        jquery: 'jquery'
+    }),
     new CopyWebpackPlugin([
         {
             from: 'source/images',
