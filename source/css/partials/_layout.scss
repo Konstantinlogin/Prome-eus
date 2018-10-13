@@ -694,12 +694,18 @@ body {
 	}
 }
 .footer {
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    height: 682px;
-    position: relative;
+    background-image: url('../images/footer-bg.jpg');
+    background-size: 1440px;
+    background-position: bottom;
+    background-repeat: repeat-x;  
+    &__container {
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 682px;
+        position: relative;
+        overflow: hidden;
+    }
     &__image {
         position: absolute;
         z-index: 1;
