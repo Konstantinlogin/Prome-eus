@@ -1,49 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="208px" height="208px" viewBox="0 0 208 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
-    <title>Flexible</title>
+    <title>Planet 1 Copy 3</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <circle id="path-1" cx="74" cy="8" r="8"></circle>
-        <circle id="path-2" cx="74" cy="146" r="8"></circle>
-        <circle id="path-3" cx="142" cy="77" r="8"></circle>
-        <circle id="path-4" cx="8" cy="77" r="8"></circle>
+        <circle id="path-1" cx="715" cy="383" r="8"></circle>
+        <circle id="path-2" cx="715" cy="521" r="8"></circle>
+        <circle id="path-3" cx="783" cy="452" r="8"></circle>
+        <circle id="path-4" cx="649" cy="452" r="8"></circle>
     </defs>
     <g id="Promeθeus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Planet" transform="translate(-604.000000, -1838.000000)">
-            <rect fill="#161825" x="0" y="0" width="1440" height="5977"></rect>
-            <g id="Group-15-Copy" transform="translate(633.000000, 1864.000000)" fill-rule="nonzero">
-                <path d="M73.3227273,29 L73.3227273,53" id="Path-Copy" stroke="#41435A" stroke-width="2"></path>
-                <path d="M73.3227273,100 L73.3227273,124" id="Path-Copy-2" stroke="#41435A" stroke-width="2"></path>
-                <path d="M25,76.6772727 L49,76.6772727 L25,76.6772727 Z" id="Path-Copy" stroke="#41435A" stroke-width="2"></path>
-                <path d="M108.822727,64.5 L108.822727,88.5" id="Path-Copy-2" stroke="#41435A" stroke-width="2" transform="translate(108.500000, 77.000000) rotate(-90.000000) translate(-108.500000, -77.000000) "></path>
-                <path d="M47.8686688,89.250523 L47.8686688,113.250523" id="Path-Copy" stroke="#41435A" stroke-width="2" transform="translate(47.545942, 101.750523) rotate(-135.000000) translate(-47.545942, -101.750523) "></path>
-                <path d="M98.0732503,39.0459415 L98.0732503,63.0459415" id="Path-Copy-2" stroke="#41435A" stroke-width="2" transform="translate(97.750523, 51.545942) rotate(-135.000000) translate(-97.750523, -51.545942) "></path>
-                <path d="M98.0732503,89.250523 L98.0732503,113.250523" id="Path-Copy" stroke="#41435A" stroke-width="2" transform="translate(97.750523, 101.750523) rotate(-225.000000) translate(-97.750523, -101.750523) "></path>
-                <path d="M47.8686688,39.0459415 L47.8686688,63.0459415" id="Path-Copy-2" stroke="#41435A" stroke-width="2" transform="translate(47.545942, 51.545942) rotate(-225.000000) translate(-47.545942, -51.545942) "></path>
-                <polygon id="Polygon" stroke="#41435A" stroke-width="2" points="74.5 6 125.058135 26.9418651 146 77.5 125.058135 128.058135 74.5 149 23.9418651 128.058135 3 77.5 23.9418651 26.9418651"></polygon>
-                <g id="Oval">
-                    <use stroke="#161825" stroke-width="17" fill="#161825" xlink:href="#path-1"></use>
-                    <use stroke="#DF804E" stroke-width="2" xlink:href="#path-1"></use>
-                </g>
-                <g id="Oval-Copy">
-                    <use stroke="#161825" stroke-width="17" fill="#161825" xlink:href="#path-2"></use>
-                    <use stroke="#DF804E" stroke-width="2" xlink:href="#path-2"></use>
-                </g>
-                <circle id="Oval-Copy" stroke="#DF804E" stroke-width="2" fill="#161825" cx="74" cy="77" r="8"></circle>
-                <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" cx="25" cy="127" r="4"></circle>
-                <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" cx="124" cy="127" r="4"></circle>
-                <g id="Oval-Copy">
-                    <use stroke="#161825" stroke-width="17" fill="#161825" xlink:href="#path-3"></use>
-                    <use stroke="#DF804E" stroke-width="2" xlink:href="#path-3"></use>
-                </g>
-                <g id="Oval-Copy">
-                    <use stroke="#161825" stroke-width="17" fill="#161825" xlink:href="#path-4"></use>
-                    <use stroke="#DF804E" stroke-width="2" xlink:href="#path-4"></use>
-                </g>
-                <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" cx="25" cy="28" r="4"></circle>
-                <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" cx="124" cy="28" r="4"></circle>
+        <g id="Planet-1-Copy-2" transform="translate(-613.000000, -352.000000)">
+            <rect fill="#161825" x="0" y="0" width="1440" height="884"></rect>
+            <g id="Group-6" transform="translate(713.000000, 404.000000)" fill-rule="nonzero" stroke="#41435A" stroke-width="2">
+                <path d="M1.32272727,0 L1.32272727,24" id="Path-Copy"></path>
+                <path d="M1.32272727,71 L1.32272727,95" id="Path-Copy-2"></path>
             </g>
+            <path d="M666,451.5 L690,451.5 L666,451.5 Z" id="Path-Copy" stroke="#41435A" stroke-width="2" fill-rule="nonzero"></path>
+            <path d="M750.322727,440 L750.322727,464" id="Path-Copy-2" stroke="#41435A" stroke-width="2" fill-rule="nonzero" transform="translate(750.000000, 452.500000) rotate(-90.000000) translate(-750.000000, -452.500000) "></path>
+            <g id="Group-6" transform="translate(714.000000, 452.000000) rotate(-135.000000) translate(-714.000000, -452.000000) translate(713.000000, 404.000000)" fill-rule="nonzero" stroke="#41435A" stroke-width="2">
+                <path d="M1.32272727,0 L1.32272727,24" id="Path-Copy"></path>
+                <path d="M1.32272727,71 L1.32272727,95" id="Path-Copy-2"></path>
+            </g>
+            <g id="Group-6" transform="translate(714.000000, 452.000000) rotate(-225.000000) translate(-714.000000, -452.000000) translate(713.000000, 404.000000)" fill-rule="nonzero" stroke="#41435A" stroke-width="2">
+                <path d="M1.32272727,0 L1.32272727,24" id="Path-Copy"></path>
+                <path d="M1.32272727,71 L1.32272727,95" id="Path-Copy-2"></path>
+            </g>
+            <polygon id="Polygon" stroke="#41435A" stroke-width="2" fill-rule="nonzero" points="715.5 381 766.058135 401.941865 787 452.5 766.058135 503.058135 715.5 524 664.941865 503.058135 644 452.5 664.941865 401.941865"></polygon>
+            <g id="Oval" fill-rule="nonzero">
+                <use stroke="#161825" stroke-width="17" fill="#161825" xlink:href="#path-1"></use>
+                <use stroke="#DF804E" stroke-width="2" xlink:href="#path-1"></use>
+            </g>
+            <g id="Oval-Copy" fill-rule="nonzero">
+                <use stroke="#161825" stroke-width="17" fill="#161825" xlink:href="#path-2"></use>
+                <use stroke="#DF804E" stroke-width="2" xlink:href="#path-2"></use>
+            </g>
+            <circle id="Oval-Copy" stroke="#DF804E" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="715" cy="452" r="8"></circle>
+            <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="666" cy="502" r="4"></circle>
+            <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="765" cy="502" r="4"></circle>
+            <g id="Oval-Copy" fill-rule="nonzero">
+                <use stroke="#161825" stroke-width="17" fill="#161825" xlink:href="#path-3"></use>
+                <use stroke="#DF804E" stroke-width="2" xlink:href="#path-3"></use>
+            </g>
+            <g id="Oval-Copy" fill-rule="nonzero">
+                <use stroke="#161825" stroke-width="17" fill="#161825" xlink:href="#path-4"></use>
+                <use stroke="#DF804E" stroke-width="2" xlink:href="#path-4"></use>
+            </g>
+            <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="666" cy="403" r="4"></circle>
+            <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="765" cy="403" r="4"></circle>
         </g>
     </g>
 </svg>

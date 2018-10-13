@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="208px" height="208px" viewBox="0 0 208 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
-    <title>Usable</title>
+    <title>Planet 1 Copy 4</title>
     <desc>Created with Sketch.</desc>
     <g id="Promeθeus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Planet" transform="translate(-987.000000, -1838.000000)">
-            <rect fill="#161825" x="0" y="0" width="1440" height="5977"></rect>
-            <g id="Group-13" transform="translate(1013.000000, 1862.000000)" fill-rule="nonzero" stroke-width="2">
+        <g id="Planet-1-Copy-2" transform="translate(-1003.000000, -352.000000)">
+            <rect fill="#161825" x="0" y="0" width="1440" height="884"></rect>
+            <g id="Group-18" transform="translate(1026.000000, 374.000000)" fill-rule="nonzero" stroke-width="2">
                 <path d="M78.8227273,66.5 L78.8227273,90.5" id="Path-Copy-3" stroke="#FF6855" transform="translate(78.500000, 79.000000) rotate(-90.000000) translate(-78.500000, -79.000000) "></path>
-                <polygon id="Rectangle" stroke="#41435A" transform="translate(79.246212, 78.246212) rotate(-45.000000) translate(-79.246212, -78.246212) " points="26.746212 25.746212 131.746212 25.746212 131.746212 130.746212 26.746212 130.746212"></polygon>
+                <polygon id="Rectangle" stroke="#41435A" transform="translate(78.500000, 78.500000) rotate(-45.000000) translate(-78.500000, -78.500000) " points="26 26 131 26 131 131 26 131"></polygon>
                 <rect id="Rectangle" stroke="#41435A" transform="translate(78.500000, 78.500000) rotate(-360.000000) translate(-78.500000, -78.500000) " x="41" y="41" width="75" height="75"></rect>
                 <rect id="Rectangle" stroke="#FF6855" transform="translate(78.500000, 78.500000) rotate(-360.000000) translate(-78.500000, -78.500000) " x="41" y="41" width="75" height="75" rx="35.5"></rect>
                 <rect id="Rectangle" stroke="#41435A" transform="translate(78.000000, 78.000000) rotate(-360.000000) translate(-78.000000, -78.000000) " x="4" y="4" width="148" height="148" rx="71"></rect>
@@ -19,8 +19,9 @@
                 <circle id="Oval-Copy" stroke="#41435A" fill="#161825" cx="41" cy="41" r="4"></circle>
                 <circle id="Oval-Copy" stroke="#41435A" fill="#161825" cx="41" cy="115" r="4"></circle>
                 <circle id="Oval-Copy" stroke="#41435A" fill="#161825" cx="116" cy="115" r="4"></circle>
-                <circle id="Oval-Copy" stroke="#41435A" fill="#161825" cx="79" cy="152" r="4"></circle>
             </g>
+            <g id="Group-7" transform="translate(1036.000000, 378.000000)"></g>
+            <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="1105" cy="526" r="4"></circle>
         </g>
     </g>
 </svg>

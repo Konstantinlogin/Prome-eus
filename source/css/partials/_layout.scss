@@ -35,12 +35,12 @@
     &__planet {
         position: absolute;
         z-index: 1;
-        top: -1098px;
+        top: -1149px;
         width: 1855px;
         height: 2368px;
         background: url(../images/planet-1.png) no-repeat center top;
         background-size: 1855px;
-        left: 50%;
+        left: calc(50% + 29px);
         transform: translateX(-50%);
     }
 }
@@ -65,7 +65,7 @@
         margin-left: auto;
         margin-right: auto;
         padding-left: 20px;
-        padding-right: 48px;
+        padding-right: 20px;
         box-sizing: border-box;
         align-items: center;
         justify-content: space-between;
@@ -135,6 +135,10 @@ body {
 .title-section {
     height: 100vh;
     max-height: 780px;
+    @media screen and (min-height: 1080px) {
+        height: 765px;
+        max-height: 100%;
+    }
     min-height: 400px;
     padding-top: 54px;
     box-sizing: border-box;
@@ -142,16 +146,21 @@ body {
     z-index: 1;
     overflow: hidden;
     &__button {
-        min-width: 255px;
+        // min-width: 255px;
     }
     &__title {
-        margin: 0;
+        margin-top: 0;
         text-align: center;
         color: white;
         font-size: 7.8em;
         letter-spacing: -3px;
         line-height: 1.2;
         margin-bottom: 45px;
+        @media screen and (min-width: 960px) {
+            margin-top: 80px;
+            margin-bottom: 40px;
+            font-size: 9.5em;
+        }
     }
     &__content {
         position: absolute;
@@ -190,7 +199,7 @@ body {
     white-space: nowrap;
     outline: none;
     text-decoration: none;
-    padding: 16px 23.5px;
+    padding: 16px 22px;
     text-align: center;
     color: #D8D8D8;
     position: relative;
@@ -200,14 +209,19 @@ body {
         color: white;
         box-shadow: 0px 0px 53px 0px rgba(255,132,85,0.63);
     }
+    &--filled {
+        background-color: #FF8455;
+        color: white;
+    }
 }
 .block-title {
     color: white;
     margin: 0;
-    font-size: 2.8em;
-    line-height: 1.2;
+    font-size: 2.12em;
+    line-height: 1.4;
     text-align: left;
     box-sizing: border-box;
+    letter-spacing: 1px;
     &__sub {
         text-align: left;
         color: #8C8492;
@@ -215,11 +229,11 @@ body {
         font-size: 11px;
         line-height: 16px;
         display: block;
-        margin-bottom: 22px;
+        margin-bottom: 30px;
     }
 }
 .about-section {
-    margin-bottom: 155px;
+    margin-bottom: 150px;
     &__container {
         margin-left: auto;
         margin-right: auto;
@@ -228,15 +242,14 @@ body {
         padding-right: 20px;
         box-sizing: border-box;
         display: flex;
-        justify-content: space-between;
     }
 
     &__left {
-        padding-right: 20px;
-        width: 39%;
+        padding-right: 22px;
+        width: 29%;
     }
     &__right {
-        width: 61%;
+        width: 71%;
     }
     &__text {
         font-size: 1.2em;
@@ -244,13 +257,13 @@ body {
         margin: 0;
         font-size: 1.125em;
         color: #8C8492;
-        padding-top: 40px;
+        padding-top: 48px;
     }
 }
 .adv-section {
     margin-left: auto;
     margin-right: auto;
-    max-width: 1135px;
+    max-width: 1100px;
     // padding-left: 20px;
     // padding-right: 20px;
     display: flex;
@@ -290,6 +303,12 @@ body {
         color: white;
         margin-bottom: 28px;
     }
+    &__image-wrap {
+        min-height: 208px;
+    }
+    &__image {
+        margin-bottom: 9px;
+    }
 }
 .section-mission {
     max-width: 1135px;
@@ -297,15 +316,15 @@ body {
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 200px;
+    margin-bottom: 187px;
     position: relative;
     z-index: 1;
     &__content {
         position: relative;
         z-index: 2;
         box-sizing: border-box;
-        padding-left: calc(33.3333% + #{128px});
-        padding-top: 95px;
+        padding-left: calc(33.3333% + #{117px});
+        padding-top: 118px;
     }
     &__planet {
         position: absolute;
@@ -314,17 +333,28 @@ body {
         background-size: cover;
         width: 801px;
         height: 776px;
-        top: -70px;
-        right: 55%;
+        top: -77px;
+        right: 60%;
     }
     &__text {
         font-size: 1.125em;
         color: #8C8492;
         line-height: 1.5;
+        max-width: 595px;
     }
     &__title {
         margin-bottom: 28px;
         max-block-size: 596px;
+    }
+}
+.gradient-bg-wrap {
+    background: url('../images/Gradient-bg.jpg') no-repeat center 57px;
+    background-size: cover;
+    @media screen and(min-width: 960px) {
+        background-size: 1440px;
+    }
+    @media screen and(min-width: 1441px) {
+        background-size: cover;
     }
 }
 .section-how {
@@ -337,17 +367,27 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: right;
-    margin-bottom: 89px;
+    // margin-bottom: 89px;
     &__title {
         position: absolute;
-        left: 0;
+        left: 18px;
         top: 0;
         padding-left: 20px;
+        padding-left: 44px;
+        letter-spacing: -1px;
+        @media screen and(min-width: 960px) {
+            font-size: 7.5em;
+            line-height: 1.19;
+            .block-title__sub {
+                font-size: 11px;
+                margin-bottom: 0;
+            }  
+        }
     }
     &__img {
         width: 100%;
-        max-width: 1019px;
         display: inline-block;
+        margin-top: 150px;
     }
 }
 .section-news {
@@ -362,7 +402,9 @@ body {
         display: flex;
     }
     &__title {
-        margin-bottom: 40px;
+        margin-bottom: 43px;
+        font-size: 2.6em;
+        line-height: 1.2;
     }
     &__image-wrapper {
         width: 100%;
@@ -388,7 +430,7 @@ body {
     &__text {
         font-size: 1.125em;
         color: white;
-        line-height: 1.5;
+        line-height: 1.4;
     }
     &__button {
         position: absolute;
@@ -396,10 +438,10 @@ body {
         bottom: 0;
     }
     &__item {
-        width: calc(25% - 40px);
-        margin-right: 40px;
+        width: 25%;
+        margin-right: 37px;
         position: relative;
-        padding-bottom: 49px + 24px;
+        padding-bottom: 68px;
         &:last-child {
             margin-right: 0;
             width: 25%;
@@ -407,13 +449,28 @@ body {
     }
 }
 .section-clients {
-    margin-bottom: 112px;
+    margin-bottom: 80px;
     &__title {
-        font-size: 2.8em;
+        font-size: 2.2em;
         color: white;
         line-height: 1.2;
         margin-bottom: 106px;
         text-align: center;
+        margin-top: 0;
+    }
+    &__logo-viacom {
+        display: inline-block;
+        background: url('../images/viacom-grey.svg') no-repeat center;
+        width: 121px;
+        height: 19px;
+        background-size: contain; 
+    }
+    &__ogilvy-logo {
+        display: inline-block;
+        background: url('../images/ogilvy-grey.png') no-repeat center;
+        width: 110.54px;
+        height: 42.8px;
+        background-size: contain; 
     }
     &__container {
         font-size: 0;
@@ -439,6 +496,12 @@ body {
             margin-right: -3px;
             border: none;
             z-index: 2;
+            .section-clients__logo-viacom {
+                background: url('../images/viacom-white.svg') no-repeat center;
+            }
+            .section-clients__ogilvy-logo {
+                background-image: url('../images/ogilvy-white.png');
+            }
             .section-clients__top-border, .section-clients__bottom-border {
                 &:before, &:after {
                     border-color: transparent!important;
@@ -519,17 +582,20 @@ body {
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    margin-bottom: 271px;
     &__title {
-        font-size: 2.8em;
+        font-size: 2.2em;
         color: white;
         line-height: 1.2;
-        margin-bottom: 114px;
+        margin-bottom: 106px;
         text-align: center;
         margin-top: 0;
     }
 }
 .our-team {
+    overflow: hidden;
+    @media screen and (min-width: 768px) {
+        margin-bottom: -40px;
+    }
     &__name {
         font-size: 18px;
         line-height: 1.5;
@@ -548,15 +614,16 @@ body {
 		box-sizing: border-box;
 		margin-bottom: 60px;
 		@media screen and (min-width: 768px) {
-			padding-left: 226px;
-			margin-bottom: 80px;
+			padding-left: 26.5%;
+            margin-bottom: 25px;
+            width: calc(100% + 34px);
 		}
 		&:last-of-type {
 			margin-bottom: 0!important;
 		}
 	}
 	&__grid {
-		box-sizing: border-box;
+        box-sizing: border-box;
 	}
 	&__title-block {
 		margin-bottom: 40px;
@@ -577,7 +644,7 @@ body {
 		}
 	}
 	&__title {
-		font-size: 22px;
+		font-size: 20px;
         line-height: 32px;
         color: white;
 	}
@@ -586,13 +653,13 @@ body {
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 28px;
-		width: 226px;
+		width: 241px;
 		text-decoration: none;
 		border: none;
 		@media screen and (min-width: 768px) {
 			display: inline-block;
 			vertical-align: top;
-			margin-right: 20px;
+			margin-right: 34px;
 			margin-bottom: 40px;
 		}
 		&:nth-of-type(3n) {
@@ -600,14 +667,14 @@ body {
 		}
 	}
 	&__image-block {
-		width: 226px;
-		height: 226px;
+		width: 241px;
+		height: 235px;
 		position: relative;
 		overflow: hidden;
 		display: inline-block;
 		text-decoration: none;
 		border: none;
-		margin-bottom: 20px;
+		margin-bottom: 25px;
 	}
 	&__name {
 		margin-bottom: 4px;
@@ -647,7 +714,7 @@ body {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 464px;
-        min-width: 130px;
+        top: 471px;
+        min-width: 110px;
     }
 }

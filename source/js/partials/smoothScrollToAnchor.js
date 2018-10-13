@@ -10,15 +10,6 @@ function scrollToBlock(element) {
         bottom: element.offsetTop - EXCLUDE_HEIGHT,
     });
 }
-// function changeActiveClass(blockId) {
-//     document.querySelector('.' + ACTIVE_LINK_CLASS).classList.remove(ACTIVE_LINK_CLASS);
-//     this.classList.add(ACTIVE_LINK_CLASS);
-//     document.querySelectorAll(LINKS_SELECTOR).forEach(a => {
-//         if (this.href === blockId) {
-
-//         }
-//     }); 
-// }
 document.querySelectorAll(LINKS_SELECTOR).forEach(a => {
     a.addEventListener('click', function (e) {
         const href = this.getAttribute("href");
@@ -28,24 +19,24 @@ document.querySelectorAll(LINKS_SELECTOR).forEach(a => {
         if (!!getElement) {
             scrollToBlock(getElement);
         }
-        document.querySelector('.' + ACTIVE_LINK_CLASS).classList.remove(ACTIVE_LINK_CLASS);
-        this.classList.add(ACTIVE_LINK_CLASS);
     });
 });
-window.onload = function(evt) {
-    const getElement = document.getElementById(window.location.hash.replace('#/', ''))
-    if (!!getElement) {
-        scrollToBlock(getElement);
+function scrollByHash(){
+    const emptyHash = (window.location.hash === '#' || window.location.hash === '' || !window.location.hash);
+    if (!emptyHash) {
+        const getElement = document.querySelector(window.location.hash.replace('#/', '#'))
+        if (!!getElement) {
+            scrollToBlock(getElement);
+        }
     }
+}
+window.onload = function(evt) {
+    scrollByHash();
 }
 window.onhashchange = function(evt) {
-    const getElement = document.querySelector(window.location.hash.replace('#/', '#'))
-    if (!!getElement) {
-        scrollToBlock(getElement);
-    }
+    scrollByHash();
 }
-window.onscroll = function(evt) {
-    const header = document.querySelector(HEADER_SELECTOR);
+function onWindowScrollChangeActiveMenu(evt) {
     let scrollCount = 0;
     scrollCount = window.scrollY;
     document.querySelectorAll(LINKS_SELECTOR).forEach(a => {
@@ -58,3 +49,4 @@ window.onscroll = function(evt) {
         }
     }); 
 }
+window.addEventListener('scroll', onWindowScrollChangeActiveMenu);

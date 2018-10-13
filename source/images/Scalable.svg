@@ -1,24 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="208px" height="208px" viewBox="0 0 208 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
-    <title>Scalable</title>
+    <title>Planet 1 Copy 2</title>
     <desc>Created with Sketch.</desc>
     <g id="Promeθeus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Planet" transform="translate(-233.000000, -1838.000000)">
-            <rect fill="#161825" x="0" y="0" width="1440" height="5977"></rect>
-            <g id="Group-14" transform="translate(264.000000, 1867.000000)" fill-rule="nonzero" stroke-width="2">
-                <polyline id="Rectangle" stroke="#41435A" points="1.42108547e-14 116.63613 1.42108547e-14 85.4479898 35.5 62 71 85.4479898 71 117.161424"></polyline>
-                <polyline id="Rectangle-Copy-2" stroke="#41435A" points="71 125 35.5 148.44799 1.42108547e-14 125"></polyline>
-                <polyline id="Rectangle-Copy-3" stroke="#41435A" points="71 85 35.5 108.44799 1.42108547e-14 85"></polyline>
-                <path d="M36.3227273,109 L36.3227273,140.201542" id="Path" stroke="#41435A"></path>
-                <polyline id="Rectangle" stroke="#FF6855" points="71 117.63613 71 86.4479898 106.5 63 142 86.4479898 142 118.161424"></polyline>
-                <polyline id="Rectangle-Copy-2" stroke="#FF6855" points="142 126 106.5 149.44799 71 126"></polyline>
-                <polyline id="Rectangle-Copy-3" stroke="#FF6855" points="142 86 106.5 109.44799 71 86"></polyline>
-                <path d="M107.322727,110 L107.322727,141.201542" id="Path" stroke="#FF6855"></path>
-                <polyline id="Rectangle" stroke="#41435A" points="36 54.8556752 36 23.5422113 71.5 -1.10134124e-13 107 23.5422113 107 55.3830803"></polyline>
-                <polyline id="Rectangle-Copy-3" stroke="#41435A" points="107 23 71.5 46.5422113 36 23"></polyline>
-                <path d="M72.3227273,47 L72.3227273,78.3269197" id="Path" stroke="#41435A"></path>
+        <g id="Planet-1-Copy-2" transform="translate(-248.000000, -352.000000)">
+            <rect fill="#161825" x="0" y="0" width="1440" height="884"></rect>
+            <g id="Group-15" transform="translate(277.000000, 375.000000)" fill-rule="nonzero" stroke-width="2">
+                <g id="Group-13-Copy">
+                    <g id="Group-12" transform="translate(0.000000, 62.000000)" stroke="#41435A">
+                        <polyline id="Rectangle" points="0 54.6361299 0 23.4479898 35.5 8.52651283e-14 71 23.4479898 71 55.1614242"></polyline>
+                        <polyline id="Rectangle-Copy-2" points="71 63.3308824 35.5 86.7788722 0 63.3308824"></polyline>
+                        <polyline id="Rectangle-Copy-3" points="71 23.6691176 35.5 47.1171075 0 23.6691176"></polyline>
+                        <path d="M35.5658691,47.1624285 L35.5658691,78.3639706" id="Path"></path>
+                    </g>
+                    <g id="Group-12-Copy" transform="translate(71.000000, 63.000000)" stroke="#FF6855">
+                        <polyline id="Rectangle" points="0 54.6361299 0 23.4479898 35.5 8.52651283e-14 71 23.4479898 71 55.1614242"></polyline>
+                        <polyline id="Rectangle-Copy-2" points="71 63.3308824 35.5 86.7788722 0 63.3308824"></polyline>
+                        <polyline id="Rectangle-Copy-3" points="71 23.6691176 35.5 47.1171075 0 23.6691176"></polyline>
+                        <path d="M35.5658691,47.1624285 L35.5658691,78.3639706" id="Path"></path>
+                    </g>
+                    <g id="Group-12-Copy" transform="translate(36.000000, 0.000000)" stroke="#41435A">
+                        <polyline id="Rectangle" points="0 54.8556752 0 23.5422113 35.5 8.52651283e-14 71 23.5422113 71 55.3830803"></polyline>
+                        <polyline id="Rectangle-Copy-3" points="71 23.7642276 35.5 47.3064389 0 23.7642276"></polyline>
+                        <path d="M35.5658691,47.3519421 L35.5658691,78.6788618" id="Path"></path>
+                    </g>
+                </g>
             </g>
+            <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="312" cy="438" r="4"></circle>
+            <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="348" cy="376" r="4"></circle>
+            <circle id="Oval-Copy" stroke="#41435A" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="277" cy="501" r="4"></circle>
+            <circle id="Oval-Copy" stroke="#EA6150" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="384" cy="438" r="4"></circle>
+            <circle id="Oval-Copy" stroke="#EA6150" stroke-width="2" fill="#161825" fill-rule="nonzero" cx="419" cy="502" r="4"></circle>
         </g>
     </g>
 </svg>
