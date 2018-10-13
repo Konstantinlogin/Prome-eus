@@ -45,11 +45,19 @@
     }
 }
 .header {
-    &.scroll-fixed {
+
+    height: 54px;
+
+    &.hidden-on-scroll {
+        opacity: 0;
+    }
+
+    &.fixed-on-scroll {
         position: fixed;
         background: rgba(0, 0, 0, 0.5);
-        height: 60px;
         z-index: 9;
+        opacity: 1;
+        transition: 0.9s;
     }
     &__container {
         display: flex;
@@ -63,7 +71,7 @@
         justify-content: space-between;
     }
     box-sizing: border-box;
-    height: 33px;
+
     position: absolute;
     z-index: 2;
     top: 0;
@@ -128,7 +136,7 @@ body {
     height: 100vh;
     max-height: 780px;
     min-height: 400px;
-    padding-top: 33px;
+    padding-top: 54px;
     box-sizing: border-box;
     position: relative;
     z-index: 1;

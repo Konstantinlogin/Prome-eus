@@ -9,7 +9,6 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 const AutoCleanBuildPlugin = require('webpack-auto-clean-build-plugin');
 const autoprefixer = require('autoprefixer');
 
@@ -28,42 +27,57 @@ let webpack_path = [
         },
         output: {
             filename: './js/project.js',
-            path: path.resolve(__dirname, './bundle')
+            path: path.resolve(__dirname, './dist')
         },
         plugins: [
             new ExtractTextPlugin('./css/project.css')
         ]
     }
 ];
+const _ProvidePlugin = new webpack.ProvidePlugin({
+    $: 'jquery',
+    jQuery: 'jquery',
+    jquery: 'jquery'
+}),
+_CopyWebpackPlugin = new CopyWebpackPlugin([
+    {
+        from: 'source/images',
+        to: 'images'
+    },
+    {
+        from: 'source/fonts',
+        to: 'fonts'
+    }
+]),
+_AutoCleanBuildPlugin = new AutoCleanBuildPlugin(),
+_HtmlWebpackPlugin = new HtmlWebpackPlugin({
+    template: './index.html',
+    chunks: ['index'],
+}),
+_BrowserSyncPlugin = new BrowserSyncPlugin({
+    host: 'localhost',
+    port: 3000,
+    server: {baseDir: ['./']}
+});
 
-let plugins = [
-    new webpack.ProvidePlugin({
-        $: 'jquery',
-        jQuery: 'jquery',
-        jquery: 'jquery'
-    }),
-    new CopyWebpackPlugin([
-        {
-            from: 'source/images',
-            to: 'images'
-        },
-        {
-            from: 'source/fonts',
-            to: 'fonts'
-        }
-    ]),
-    new AutoCleanBuildPlugin(),
-    new HtmlWebpackPlugin({
-        template: 'source/index.html',
-        chunks: ['index']
-    }),
-    new BrowserSyncPlugin({
-        host: 'localhost',
-        port: 3000,
-        server: {baseDir: ['bundle']}
-    }),
+let plugins = [];
 
-];
+if(dev) {
+    plugins = [
+        _ProvidePlugin,
+        _CopyWebpackPlugin,
+        _AutoCleanBuildPlugin,
+        _HtmlWebpackPlugin,
+        _BrowserSyncPlugin
+    ]
+} else {
+    plugins = [
+        _AutoCleanBuildPlugin,
+        _ProvidePlugin,
+        _CopyWebpackPlugin,
+    ]
+}
+
 
 if (env === 'analizer') {
     webpack_path.forEach(function(item, i) {
@@ -113,19 +127,6 @@ let baseConfig = {
             use: [
                 {
                     loader: 'babel-loader?' + JSON.stringify(babelSettings)
-                }
-            ]
-        }, {
-            test: /\.ts$/,
-            include: [
-                path.resolve(__dirname, './source'),
-            ],
-            use: [
-                {
-                    loader: 'babel-loader?' + JSON.stringify(babelSettings)
-                },
-                {
-                    loader: 'awesome-typescript-loader'
                 }
             ]
         }, {
