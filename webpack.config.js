@@ -58,6 +58,8 @@ _BrowserSyncPlugin = new BrowserSyncPlugin({
     host: 'localhost',
     port: 3000,
     server: {baseDir: ['./']}
+}, {
+  reload: false
 });
 
 let plugins = [];
@@ -67,7 +69,7 @@ if(dev) {
         _ProvidePlugin,
         _CopyWebpackPlugin,
         _AutoCleanBuildPlugin,
-        _HtmlWebpackPlugin,
+        // _HtmlWebpackPlugin,
         _BrowserSyncPlugin
     ]
 } else {
